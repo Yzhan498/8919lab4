@@ -32,18 +32,18 @@ echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO 
 sudo apt-get update
 sudo apt-get install azure-cli
 ![img](<img/Screenshot 2024-03-23 at 2.15.35 PM.png>)
+•
+Install the Azure Monitor agent following the instructions on the Azure portal.
+![logwork](<img/Screenshot 2024-03-26 at 12.06.19 AM.png>)
 Task 4: Collect Performance Metrics
 • Use the Azure CLI to configure the Azure Monitor agent to collect performance metrics:
 az login
 # Follow the instructions to complete the login process.
 # Set up the agent to collect the desired metrics.
-![img](<img/Screenshot 2024-03-23 at 4.33.52 PM.png>)
+
 •
 Validate that metrics are being collected using the Azure portal.
-![img](<img/Screenshot 2024-03-23 at 4.41.03 PM.png>)
-![img](<img/Screenshot 2024-03-23 at 4.45.02 PM.png>)
-![img](<img/Screenshot 2024-03-23 at 5.00.18 PM.png>)
-![img](<img/Screenshot 2024-03-23 at 5.03.55 PM.png>)
+
 Task 5: Connect Grafana to Azure Monitor
 •
 Open Grafana in your web browser (usually http://<your-server-ip>:3000) and log in with the default credentials (admin/admin).
@@ -56,6 +56,7 @@ Select “Azure Monitor” from the list.
 Enter the details for your Azure subscription, tenant ID, client ID, and client secret.
 •
 Save and test the connection to ensure it is configured correctly.
+
 Task 6: Create a Dashboard in Grafana
 •
 Click on the “+” icon on the left sidebar and select “Dashboard.”
