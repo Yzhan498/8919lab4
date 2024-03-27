@@ -41,6 +41,7 @@ az login
 # Follow the instructions to complete the login process.
 # Set up the agent to collect the desired metrics.
 ![UbuntuAgent](<img/Screenshot 2024-03-26 at 10.12.32 PM.png>)
+![metrics](<img/Screenshot 2024-03-26 at 10.18.49 PM.png>)
 •
 Validate that metrics are being collected using the Azure portal.
 
@@ -71,3 +72,4 @@ Choose the relevant metrics that you would like to visualize, such as CPU usage,
 ![Memory](<img/Screenshot 2024-03-26 at 10.08.16 PM.png>)
 ![network](<img/Screenshot 2024-03-26 at 10.09.01 PM.png>)
 Customize the panel with thresholds, colors, and labels.
+![customize disk read](<img/Screenshot 2024-03-26 at 10.32.05 PM.png>)
