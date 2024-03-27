@@ -40,7 +40,7 @@ Task 4: Collect Performance Metrics
 az login
 # Follow the instructions to complete the login process.
 # Set up the agent to collect the desired metrics.
-
+![UbuntuAgent](<img/Screenshot 2024-03-26 at 10.12.32 PM.png>)
 •
 Validate that metrics are being collected using the Azure portal.
 
@@ -54,6 +54,7 @@ Navigate to Configuration > Data Sources and click on “Add data source.”
 Select “Azure Monitor” from the list.
 •
 Enter the details for your Azure subscription, tenant ID, client ID, and client secret.
+![connected](<img/Screenshot 2024-03-26 at 8.23.38 PM.png>)
 •
 Save and test the connection to ensure it is configured correctly.
 
@@ -66,5 +67,7 @@ Click on “Add new panel.”
 From the data source dropdown, select “Azure Monitor.”
 •
 Choose the relevant metrics that you would like to visualize, such as CPU usage, memory usage, network I/O, etc.
-•
+![CPU](<img/Screenshot 2024-03-26 at 10.07.04 PM.png>)
+![Memory](<img/Screenshot 2024-03-26 at 10.08.16 PM.png>)
+![network](<img/Screenshot 2024-03-26 at 10.09.01 PM.png>)
 Customize the panel with thresholds, colors, and labels.
